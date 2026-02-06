@@ -32,6 +32,11 @@ onMounted(() => {
 </script>
 <style>
 .container {
-  margin-top: 2rem;
+  margin-top: 10%;
+  margin-left: 30%;
+  border: 2px solid darkblue;
+  border-radius: 20px;
+  width: 38%;
+  padding: 20px;
 }
 </style>
