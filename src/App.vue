@@ -38,5 +38,6 @@ onMounted(() => {
   border-radius: 20px;
   width: 38%;
   padding: 20px;
+  background-color: hsl(158, 79%, 95%);
 }
 </style>

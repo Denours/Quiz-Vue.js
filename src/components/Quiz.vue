@@ -9,7 +9,6 @@
       @answer="addAnswer"
     />
     <Recap v-if="state === 'recap'" :quiz="quiz" :answers="answers" />
-    {{ answers }}
   </div>
 </template>
 <script setup>
