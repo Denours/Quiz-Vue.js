@@ -34,10 +34,10 @@ onMounted(() => {
 .container {
   margin-top: 10%;
   margin-left: 30%;
-  border: 2px solid darkblue;
+  border: 2px solid hsl(240, 10%, 27%);
   border-radius: 20px;
   width: 38%;
   padding: 20px;
-  background-color: hsl(158, 79%, 95%);
+  background-color: hsl(138, 77%, 92%);
 }
 </style>

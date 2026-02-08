@@ -7,6 +7,7 @@
       :value="value"
       v-model="model"
       :disabled="disabled"
+      @change="onChange"
     />
     {{ value }}
   </label>
@@ -21,6 +22,10 @@ const props = defineProps({
   correctAnswer: String,
 });
 const model = defineModel();
+const emits = defineEmits(["change"]);
+const onChange = (event) => {
+  emits("change", event);
+};
 const classes = computed(() => ({
   disabled: props.disabled,
   right: props.disabled && props.value === props.correctAnswer,
